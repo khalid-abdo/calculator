@@ -20,7 +20,7 @@ function equal(){
     catch (errrr){
         inp.value='error'
        //this method show when you make a wrong exercies
-      setTimeout(function(){clea()},1000)
+      setTimeout(function(){clea()},500)
       //this method turn on after error
     }
    
