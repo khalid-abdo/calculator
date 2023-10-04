@@ -1,7 +1,6 @@
 let inp =document.getElementById('inp');
 function press(num){
     inp.value +=num
-
 }
 //this funcaation to make buttons value show on input
 function clea(){
