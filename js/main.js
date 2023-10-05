@@ -14,11 +14,11 @@ function del(){
 function equal(){
     try{
         inp.value =eval(inp.value)
-// this method to resolve the exampls
+//This method to resolve the examples
     }
     catch (errrr){
         inp.value='error'
-       //this method show when you make a wrong exercies
+       //this method shows when you do the wrong exercises
       setTimeout(function(){clea()},500)
       //this method turn on after error
     }
